@@ -103,7 +103,7 @@ ul{
   .box{
       width: 325px;
       background: rgba(0, 0, 0, 0.4);
-      padding: 25px;
+      padding: 25px 25px 10px 25px;
       text-align: center;
       margin: auto;
       margin-top: 7.5%;
