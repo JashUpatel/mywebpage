@@ -134,6 +134,12 @@ ul{
       font-weight: 400;
   }
 
+  #name{
+    margin-top: 7.5%;
+    text-shadow:3px 1px 2.5px black, 4.5px 2.5px 3.5px #944811e0;
+  }
+
+
   #intro{
     font-size: 1.25em;
     padding: 5% 0;
