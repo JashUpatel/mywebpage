@@ -1,31 +1,66 @@
-html{
+html body{
 
     background: url("img/bg.jpg") no-repeat center fixed;
     background-size: cover;
-}
-body{
     margin: 0;
     padding: 0;
+}
+
+#profile img{
+  border: 5.5px solid #b6b2b2;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 2.5px 12px 6.5px #000000c2, 2.5px 4.5px 10px 4.5px #944811e0;
 
 }
+
+#name{
+  margin-top: 7.5%;
+  text-shadow:5px 1px 2.5px black, 6.5px 2.5px 3.5px #944811e0;
+}
+
+#intro{
+  font-size: 1.325em;
+  padding: 5%;
+  text-shadow: 1px 1.5px 1px #944811e0;
+  text-align: center;
+  font-family:courier;
+  margin-top:3.5%;
+}
+
+#social
+{
+  align-items: center;
+  letter-spacing: 10px;
+  width: 20px;
+  height: 20px;
+  display:inline;
+}
+
+#social img{
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 20px;
+  box-shadow: 0.5px 0.5px 5px 4.5px #000000c2, 0.5px 0.5px 4px 5px #944811e0;
+
+}
+
 .box{
-    width: 450px;
+    width: 575px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3.5%;
     color:white;
     font-family: 'Century Gothic',sans-serif;
     box-shadow: 1px 3px 3px 3px #000000c2;
 
 }
 .box-img{
-    border: 3px solid #433c3c;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    box-shadow: 1px 2px 2px 2px #000000c2;
 
 
 }
@@ -34,10 +69,11 @@ body{
     letter-spacing: 4px;
     font-weight: 100;
 }
-.box h5{
-    font-size: 20px;
+.box h4{
+text-shadow:  1px 1.2px 3px black, 1.5px 2.5px 7.5px #944811e0;
+    font-size: 1.25em;
     letter-spacing: 4px;
-    font-weight: 100;
+    font-weight: 400;
 }
 .box p{
     text-align: justify;
@@ -60,4 +96,52 @@ ul{
 }
 .box li a: hover{
     color: #b9b9b9;
+}
+
+@media (min-width:300px) and (max-width:575px) {
+
+  .box{
+      width: 325px;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      margin-top: 7.5%;
+      color:white;
+      font-family: 'Century Gothic',sans-serif;
+      box-shadow: 1px 3px 3px 3px #000000c2;
+  }
+
+  #profile img{
+    border: 5.5px solid #b6b2b2;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 2.5px 12px 6.5px #000000c2, 2.5px 4.5px 10px 4.5px #944811e0;
+
+  }
+
+  .box h1{
+      font-size: 35px;
+      letter-spacing: 4px;
+      font-weight: 100;
+  }
+
+  .box h4{
+      text-shadow:  1px 1.2px 3px black, 1.5px 2.5px 7.5px #944811e0;
+      font-size: 1.15em;
+      letter-spacing: 4px;
+      font-weight: 400;
+  }
+
+  #intro{
+    font-size: 1.25em;
+    padding: 5% 0;
+    text-shadow: 1px 1.5px 1px #944811e0;
+    text-align: center;
+    font-family:courier;
+    margin-top:5%;
+  }
+
+
 }
